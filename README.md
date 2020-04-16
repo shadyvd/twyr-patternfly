@@ -1,15 +1,15 @@
 twyr-patternfly
 ==============================================================================
 
-[Short description of the addon.]
+Ember Octane implementation of the Red Hat Patternfly Design Language 
 
 
 Compatibility
 ------------------------------------------------------------------------------
 
-* Ember.js v3.12 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
+* Ember.js v3.16 or above
+* Ember CLI v3.16 or above
+* Node.js v12 or above
 
 
 Installation
@@ -18,7 +18,6 @@ Installation
 ```
 ember install twyr-patternfly
 ```
-
 
 Usage
 ------------------------------------------------------------------------------
@@ -35,4 +34,4 @@ See the [Contributing](CONTRIBUTING.md) guide for details.
 License
 ------------------------------------------------------------------------------
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MITNFA License](LICENSE.md).

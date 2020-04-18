@@ -1,0 +1,6 @@
+{
+	"*.css": ["npx stylelint --fix", "git add"],
+	"*.hbs": ["npx ember-template-lint --fix", "git add"],
+	"*.js": ["npx eslint --cache --fix", "git add"],
+	"*.scss": ["npx stylelint --fix", "git add"]
+}

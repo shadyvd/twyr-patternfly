@@ -6,6 +6,13 @@ module.exports = function (defaults) {
 	const app = new EmberAddon(defaults, {
 		"sassOptions": {
 			"implementation": require('node-sass')
+		},
+
+		"stylelint": {
+			"includePaths": [ 'app/styles' ],
+			"linterConfig": {
+				"syntax": 'scss'
+			}
 		}
 	});
 

@@ -1,3 +1,5 @@
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 # How To Contribute
 
 ## Installation
@@ -9,8 +11,13 @@
 ## Linting
 
 * `npm run lint:hbs`
+* `npm run lint:hbs -- --fix`
+*
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
+*
+* `npm run lint:scss`
+* `npm run lint:scss -- --fix`
 
 ## Running tests
 

@@ -67,6 +67,8 @@
 		"@glimmer/tracking": "^1.0.0",
 		"babel-eslint": "^10.1.0",
 		"broccoli-asset-rev": "^3.0.0",
+		"commitizen": "^4.0.4",
+		"cz-conventional-changelog": "^3.1.0",
 		"ember-auto-import": "^1.5.3",
 		"ember-cli": "~3.17.0",
 		"ember-cli-dependency-checker": "^3.2.0",
@@ -111,8 +113,14 @@
 	},
 	"husky": {
 		"hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
 			"pre-commit": "lint-staged",
 			"pre-push": "lint-staged"
+		}
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
 		}
 	}
 }

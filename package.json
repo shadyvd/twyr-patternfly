@@ -49,6 +49,7 @@
 	"scripts": {
 		"build": "ember build --environment=production",
 		"lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
+		"lint:scss": "stylelint app/**/*.scss",
 		"lint:hbs": "ember-template-lint .",
 		"lint:js": "eslint .",
 		"start": "ember serve",
@@ -85,9 +86,17 @@
 		"eslint": "^6.8.0",
 		"eslint-plugin-ember": "^8.4.0",
 		"eslint-plugin-node": "^11.1.0",
+		"husky": "^4.2.5",
 		"loader.js": "^4.7.0",
+		"node-sass": "^4.13.1",
 		"npm-run-all": "^4.1.5",
-		"qunit-dom": "^1.2.0"
+		"qunit-dom": "^1.2.0",
+		"stylelint": "^13.3.2",
+		"stylelint-config-recommended-scss": "^4.2.0",
+		"stylelint-config-sass-guidelines": "^7.0.0",
+		"stylelint-config-standard": "^20.0.0",
+		"stylelint-order": "^4.0.0",
+		"stylelint-scss": "^3.17.0"
 	},
 	"engines": {
 		"node": ">= 12"

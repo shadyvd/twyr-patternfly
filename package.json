@@ -54,8 +54,8 @@
     "lint:js": "npx eslint .",
     "start": "ember serve",
     "test": "npm-run-all lint:* test:*",
-    "test:ember": "ember test",
-    "test:ember-compatibility": "ember try:each",
+    "test:ember": "npx ember test",
+    "test:ember-compatibility": "npx ember try:each",
     "semantic-release": "semantic-release"
   },
   "dependencies": {

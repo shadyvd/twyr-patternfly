@@ -1,7 +1,7 @@
 twyr-patternfly
 ==============================================================================
 [![License](https://img.shields.io/npm/l/twyr-patternfly.svg)](https://github.com/twyr/twyr-patternfly/blob/master/package.json)
-[![Greenkeeper badge](https://badges.greenkeeper.io/twyr/twyr-patternfly.svg)](https://greenkeeper.io/)
+[![Dependabot](https://badgen.net/dependabot/twyr/twyr-patternfly/256194340?icon=dependabot)](https://app.dependabot.com/accounts/twyr/repos/256194340)
 [![CircleCI](https://circleci.com/gh/twyr/twyr-patternfly.svg?style=shield)](https://circleci.com/gh/twyr/twyr-patternfly)
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)

@@ -28,20 +28,16 @@
 		"email": "shadyvd@hotmail.com",
 		"url": "https://github.com/shadyvd"
 	},
-	"maintainers": [
-		{
-			"name": "Vish Desai",
-			"email": "shadyvd@hotmail.com",
-			"url": "https://github.com/shadyvd"
-		}
-	],
-	"contributors": [
-		{
-			"name": "Vish Desai",
-			"email": "shadyvd@hotmail.com",
-			"url": "https://github.com/shadyvd"
-		}
-	],
+	"maintainers": [{
+		"name": "Vish Desai",
+		"email": "shadyvd@hotmail.com",
+		"url": "https://github.com/shadyvd"
+	}],
+	"contributors": [{
+		"name": "Vish Desai",
+		"email": "shadyvd@hotmail.com",
+		"url": "https://github.com/shadyvd"
+	}],
 	"directories": {
 		"doc": "doc",
 		"test": "tests"

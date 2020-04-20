@@ -28,28 +28,32 @@
 		"email": "shadyvd@hotmail.com",
 		"url": "https://github.com/shadyvd"
 	},
-	"maintainers": [{
-		"name": "Vish Desai",
-		"email": "shadyvd@hotmail.com",
-		"url": "https://github.com/shadyvd"
-	}],
-	"contributors": [{
-		"name": "Vish Desai",
-		"email": "shadyvd@hotmail.com",
-		"url": "https://github.com/shadyvd"
-	}],
+	"maintainers": [
+		{
+			"name": "Vish Desai",
+			"email": "shadyvd@hotmail.com",
+			"url": "https://github.com/shadyvd"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Vish Desai",
+			"email": "shadyvd@hotmail.com",
+			"url": "https://github.com/shadyvd"
+		}
+	],
 	"directories": {
 		"doc": "doc",
 		"test": "tests"
 	},
 	"scripts": {
 		"build": "ember build --environment=production",
-		"lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
+		"lint": "npm-run-all --continue-on-error --serial lint:*",
 		"lint:scss": "npx stylelint app/**/*.scss",
 		"lint:hbs": "npx ember-template-lint .",
 		"lint:js": "npx eslint .",
 		"start": "ember serve",
-		"test": "npm-run-all lint:* test:ember",
+		"test": "npm-run-all --continue-on-error --serial lint:* test:*",
 		"test:ember": "npx ember test",
 		"test:ember-compatibility": "npx ember try:each",
 		"semantic-release": "semantic-release"
@@ -115,7 +119,7 @@
 		"stylelint-config-sass-guidelines": "^7.0.0",
 		"stylelint-config-standard": "^20.0.0",
 		"stylelint-order": "^4.0.0",
-		"stylelint-scss": "^3.17.0",
+		"stylelint-scss": "^3.17.1",
 		"tracked-built-ins": "^1.0.1"
 	},
 	"engines": {

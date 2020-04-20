@@ -48,12 +48,12 @@
 	},
 	"scripts": {
 		"build": "ember build --environment=production",
-		"lint": "npm-run-all --aggregate-output --continue-on-error --serial lint:*",
+		"lint": "npm-run-all --continue-on-error --serial lint:*",
 		"lint:scss": "npx stylelint app/**/*.scss",
 		"lint:hbs": "npx ember-template-lint .",
 		"lint:js": "npx eslint .",
 		"start": "ember serve",
-		"test": "npm-run-all --aggregate-output --continue-on-error --serial lint:* test:*",
+		"test": "npm-run-all --continue-on-error --serial lint:* test:*",
 		"test:ember": "npx ember test",
 		"test:ember-compatibility": "npx ember try:each",
 		"semantic-release": "semantic-release"

@@ -33,10 +33,6 @@ workflows:
   workflow-build-and-test:
     jobs:
       - job-build-and-test:
-          filters:
-            branches:
-              only:
-                - master
 
 jobs:
   job-build-and-test:

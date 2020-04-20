@@ -1,6 +1,6 @@
 {
 	"hooks": {
-		"prepare-commit-msg": "exec < /dev/tty && npx git-cz --signoff --hook || true",
+		"prepare-commit-msg": "exec < /dev/tty && npx git-cz --hook --signoff",
 		"commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS",
 		"pre-commit": "npx lint-staged",
 		"pre-push": "npx lint-staged"

@@ -53,7 +53,7 @@
 		"lint:hbs": "npx ember-template-lint .",
 		"lint:js": "npx eslint .",
 		"start": "ember serve",
-		"test": "npm-run-all --continue-on-error --serial lint:* test:*",
+		"test": "npm-run-all --continue-on-error --serial lint:* test:ember",
 		"test:ember": "npx ember test",
 		"test:ember-compatibility": "npx ember try:each",
 		"semantic-release": "semantic-release"
@@ -130,9 +130,6 @@
 	},
 	"ember-addon": {
 		"configPath": "tests/dummy/config"
-	},
-	"publishConfig": {
-		"access": "restricted"
 	},
 	"homepage": "https://twyr.github.io/twyr-patternfly"
 }

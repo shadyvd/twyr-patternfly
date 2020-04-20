@@ -42,8 +42,8 @@ jobs:
   job-build-and-test:
     docker:
       - image: circleci/node:13-browsers
-      environment:
-        CHROME_BIN: "/usr/bin/google-chrome"
+        environment:
+          CHROME_BIN: "/usr/bin/google-chrome"
 
     steps:
       - checkout

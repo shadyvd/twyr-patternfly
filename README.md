@@ -8,7 +8,7 @@ twyr-patternfly
 [![Known Vulnerabilities](https://snyk.io/test/github/twyr/twyr-patternfly/badge.svg)](https://snyk.io/test/github/twyr/twyr-patternfly)
 [![CircleCI](https://circleci.com/gh/twyr/twyr-patternfly.svg?style=shield&circle-token=5b5a717014a209604624b6e25cee1552e6174315)](https://circleci.com/gh/twyr/twyr-patternfly)
 
-Ember Octane implementation of the Red Hat Patternfly Design Language:
+Ember Octane implementation of the Red Hat Patternfly Design Language.
 
 
 Compatibility
